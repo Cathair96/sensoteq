@@ -1,5 +1,5 @@
 const express = require("express");
-const pool = require("./pg");
+const pool = require("../pg");
 
 const filmsRouter = express.Router();
 
